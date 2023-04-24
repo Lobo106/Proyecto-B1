@@ -1,0 +1,15 @@
+
+
+Generación de Código RGB
+
+aletorio
+ejemplo aleatorio: 125, 200, 47
+
+seleccionar el color más alto (en este caso, el del medio)
+
++/- 20 puntos min/max (min = 180 max 220)
+
+//
+función 3 colores primarios
+
+Math Floor, math random, rangos
