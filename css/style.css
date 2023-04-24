@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../svg/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+    /* eliminarlo 👇 - bordes para medir los contenedores*/
+    border: 1px black solid;
+}
+
+body {
+    text-align: center;
+    color: rgb(132, 39, 39);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* eliminarlo 👇 - bordes para medir los contenedores*/
+    border: 1px black solid;
+}
+
+body > header {
+    padding-top: 1.5rem;
+}
+
+body > header > h1 {
+    font-size: 2rem;
+    font-family: Gluten;
+    /* Le damos un borde al texto */
+    -webkit-text-stroke: 2px black;
+    color: rgb(142, 54, 54);
+}
+
+body > main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+body > main > div > h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#rgb {
+    /* eliminarlo 👇 - bordes para medir los contenedores*/
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+div {   
+    padding: 1rem;
+}
+
+#colores {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#color1, #color2, #color3, #color4 {
+    border: 1px black solid;
+
+}
+
+#colores > div {
+    width: calc(50% - 1rem);
+    margin: 0.5rem;
+    height: 100px    
+}
+
+.validacion {
+    margin: 0;
+    padding: 0;
+}
+
+#contador {
+    border: 1px black solid;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#aciertos {
+color: green
+}
+
+#fallos{
+    color: red;
+}
+
+body > footer {
+    margin-top: auto;
+    padding: 0.5rem;
+    color: black;
+}
