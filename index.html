@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Juego De Colores</title>
+    </head>
+    <body>
+        <header>
+            <h1>Random Game Bet</h1>
+        </header>
+        <main id="general">
+            <!-- contenedor general -->
+            <!-- <header>
+                <h2>¿Qué color es igual al RGB?</h2>
+            </header> -->
+            <div id="pregunta">
+                <!-- contenedor color rgb, con botón -->
+                <h2>El código RGB es...</h2>
+                <div id="rgb">
+                    <!-- Aquí se generaría el código RGB en este párrafo: -->
+                    <p id="rgbrandom"></p>
+                </div>
+            </div>
+            <div id="colores">
+                <!-- contenedor elegir color, con botones -->
+                <div id="color1">
+                    <!-- Insertar el BackgroundColor1 como RGB -->
+                </div>
+                <div id="color2">
+                    <!-- Insertar el BackgroundColor2 como RGB -->
+                </div>
+                <div id="color3">
+                    <!-- Insertar el BackgroundColor3 como RGB -->
+                </div>
+                <div id="color4">
+                    <!-- Insertar el BackgroundColor4 como RGB -->
+                </div>
+            </div>
+            <div class="validacion">
+                <button>Siguiente</button>
+            </div>
+            <div id="contador">
+                <!-- Aciertos y fallos-->
+                <p id="aciertos">Aciertos:</p>
+                <p id="fallos">Fallos:</p>
+            </div>
+            <div id="opciones">
+                <!-- Reset color y niveles -->
+                <button id="reset">Jugar De Nuevo</button>
+                <button class="mode">Principiante</button>
+                <button class="mode">Avanzado</button>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by Hack-A-Boss &copy;</p>
+            <p>Team: Gonza, Ana, Luis & Juan - 2023</p>
+        </footer>
+        <script type="module" src="./script/pruebas-juan.js"></script>
+    </body>
+</html>
